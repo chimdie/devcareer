@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    background-color: #000000;
+    margin: 2rem auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.img{
+    width: 350px;
+    height: 600px;
+    background-color: #27314d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img > img{
+    margin-top: -90px;
+    margin-bottom: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+#tag{
+    width: 70%;
+    background-color: white;
+    color: #27314d;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border-radius: 9rem;
+}
+#dv{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .70rem;
+    float: right;
+    padding: .35rem;
+    margin: -590px 1rem 0 0;
+}
+#dv > a{
+    text-decoration: none;
+    color: #daa520;
+    font-weight: bold;
+}
+#dv > a:hover{
+    opacity: .5;
+}
+.info{
+    margin: -40% 0 0 35%;
+}
+#name {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 0 1rem 1rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul > li{
+    width: 9rem;
+    background-color: #27314d;
+    text-align: left;
+    padding: .5rem;
+    margin: .45rem;
+    color: white;
+    font-size: .80rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+}
+.bar{
+    background-color: #27314d;
+    width: 90%;
+    height: .25rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+}
+.text{
+    width: 80%;
+    margin: 1rem;
+}
+.htag{
+    font-size: 1.5rem;
+    font-weight: 4rem;
+    margin: 1rem 0 .75rem;
+}
+.handles{
+    display: flex;
+    flex-direction: row;
+}
+.handles >  a{
+    margin: .50rem;
+}
+a > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80%;
+}
+#fbk > img{
+    margin: .4rem;
+    padding: .15rem;
+}
+a > #fbk{
+    border: 1px solid #1743d6;
+}
+#ig > img{
+    margin: .25rem;
+    padding: .20rem;
+}
+a > #ig{
+    border: 1px solid #cc289b;
+}
+#git > img{
+    margin: .30rem;
+    padding: .15rem;
+}
+a > #git{
+    border: 1px solid black;
+}
+#tl > img{
+    margin: .2rem;
+    padding: .15rem;
+}
+a > #tl{
+    border: 1px solid #189ace;
+}
+#lkd > img{
+    margin: .3rem;
+    padding: .15rem;
+}
+a > #lkd{
+    border: 1px solid #187cce;
+}
+
